@@ -21,6 +21,3 @@ export function decodedValue(input: Input): number {
   const [band1, band2] = input
   return parseInt(`${bandsLookup[band1]}${bandsLookup[band2]}`, 10)
 }
-
-const d = decodedValue(['brown', 'pink'])
-console.dir({d})
